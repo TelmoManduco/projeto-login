@@ -13,3 +13,42 @@ Branco-neblina (#E6F1F5) - Para os campos de entrada e contrastes suaves.
 Amarelo-suave (#D9A441) - Para um botão de destaque ou pequenos detalhes. 
 
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #2A5D67;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#login {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+ #imagem {
+    background: #2A5D67 url("../imagens/bckground.jpg") no-repeat left center;
+    background-size: cover;
+    height: 200px;
+ }
